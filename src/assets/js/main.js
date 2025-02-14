@@ -75,7 +75,7 @@ function showOverview() {
     card.className =
       "bg-gray-200 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition transform hover:scale-105";
     card.innerHTML = `
-      <img src="./assets/img/${planet.name.toLowerCase()}.jpeg" alt="${
+      <img src="/assets/img/${planet.name.toLowerCase()}.jpeg" alt="${
       planet.name
     }" class="w-full h-48 object-cover">
       <div class="p-4">
@@ -97,7 +97,7 @@ function showPlanetDetails(planet) {
   pageTitle.textContent = planet.name;
   document.getElementById(
     "planetImage"
-  ).src = `./assets/img/${planet.name.toLowerCase()}.jpeg`;
+  ).src = `/assets/img/${planet.name.toLowerCase()}.jpeg`;
   document.getElementById("planetImage").alt = planet.name;
   document.getElementById("planetName").textContent = planet.name;
   document.getElementById("planetDetails").innerHTML = `

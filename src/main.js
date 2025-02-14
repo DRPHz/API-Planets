@@ -51,7 +51,7 @@ function buildMenu() {
     const link = document.createElement("a");
     link.href = `#${planet.name.toLowerCase()}`;
     link.className =
-      "block sm:inline-block py-2 px-4 hover:bg-gray-700 rounded";
+      "block sm:inline-block py-2 px-4 hover:bg-gray-400 rounded";
     link.textContent = planet.name;
     menuItems.appendChild(link);
   });

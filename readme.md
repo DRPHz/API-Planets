@@ -2,6 +2,8 @@
 
 API docuementatie: https://api-ninjas.com/api/planets
 
+Link render.com: https://api-planets-8b2g.onrender.com/
+
 ## Vite
 
 Om de server te starten run: npm install && npm run dev

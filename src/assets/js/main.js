@@ -1,5 +1,4 @@
 import { fetchData } from "./api.js";
-import "../../css/style.css";
 
 const PLANET_NAMES = [
   "Mercury",

@@ -1,3 +1,4 @@
+import "./style.css";
 import { fetchData } from "./api.js";
 
 const PLANET_NAMES = [
